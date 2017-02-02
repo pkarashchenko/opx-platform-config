@@ -1,0 +1,9 @@
+common/etc/*						etc
+common-hw/bin/*						usr/bin
+vendor/accton/as7512-32x/etc/opx/*				etc/opx
+vendor/accton/as7512-32x-hw/bin/*				usr/bin
+vendor/accton/as7512-32x-hw/etc/modules-load.d/*		etc/modules-load.d
+vendor/accton/as7512-32x-hw/etc/opx/sai/*			etc/opx/sai
+vendor/accton/as7512-32x-hw/etc/opx/sdi/*			etc/opx/sdi
+vendor/accton/as7512-32x-hw/lib/systemd/system/*		lib/systemd/system
+vendor/accton/as7512-32x-hw/lib/systemd/system-shutdown/*	lib/systemd/system-shutdown
