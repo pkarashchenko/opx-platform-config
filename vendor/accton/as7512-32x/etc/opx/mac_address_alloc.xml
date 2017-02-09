@@ -14,7 +14,7 @@
 -->
 <mac-address-allocation>
     <interface type="management" base-offset="0" offset-range="1" />
-    <interface type="front-panel" base-offset="1" offset-range="104" />
-    <interface type="lag" base-offset="105" offset-range="1" />
-    <interface type="vlan" base-offset="106" offset-range="1" />
+    <interface type="front-panel" base-offset="1" offset-range="125" />
+    <interface type="lag" base-offset="129" offset-range="1" />
+    <interface type="vlan" base-offset="130" offset-range="1" />
 </mac-address-allocation>
