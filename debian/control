@@ -26,15 +26,15 @@ Depends: opx-bcm-lkm, libopx-sai-bcm-esw1, opx-platform-config-dell-s6000, opx-c
 Description: All packages for Dell Networking S6000-ON
 
 Package: opx-platform-config-accton-as7512-32x
-Architecture: any
+Architecture: all
 # opx-accton-as7512-32x-modules and opx-nas-platform-as7512-32x ?????? doesn't exist
 # Depends: opx-accton-as7512-32x-modules, i2c-tools, dmidecode, libopx-sdi-device-drivers1, libopx-sdi-sys1, libopx-nas-platform-as7512-32x-1
 Depends: i2c-tools, dmidecode, libopx-sdi-device-drivers1, libopx-sdi-sys1
-Description: Package to install on an Accton AS7512-32X
+Description: All packages for Accton AS7512-32X
 
 Package: opx-accton-as7512-32x
-Architecture: any
+Architecture: all
 # opx-core not built yet; we're not ready for NAS yet.
 # Depends: opx-platform-config-accton-as7512-32x,opx-core
 Depends: opx-platform-config-accton-as7512-32x
-Description: Package to install on an Accton AS7512-32X
+Description: Platform-specific files and packages for Accton AS7512-32X
