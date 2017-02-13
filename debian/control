@@ -12,7 +12,7 @@ Description: Platform specific files and packages for VM simulation of Dell Netw
 
 Package: opx-dell-vm
 Architecture: all
-Depends: opx-platform-config-dell-vm, opx-core
+Depends: libopx-sai-common1, opx-platform-config-dell-vm, opx-core
 Description: All packages for VM simulation of Dell Networking S6000-ON
 
 Package: opx-platform-config-dell-s6000
@@ -22,7 +22,7 @@ Description: Platform-specific files and packages for Dell Networking S6000-ON
 
 Package: opx-dell-s6000
 Architecture: all
-Depends: opx-bcm-lkm, libopx-sai-bcm-esw1, opx-platform-config-dell-s6000, opx-core
+Depends: opx-bcm-lkm, libopx-sai-bcm-esw1, libopx-sai-common1, opx-platform-config-dell-s6000, opx-core
 Description: All packages for Dell Networking S6000-ON
 
 Package: opx-platform-config-accton-as7512-32x-vm
@@ -30,9 +30,9 @@ Architecture: all
 Depends: libopx-sdi-sys-vm1, libopx-nas-platform-vm1
 Description: Platform specific files and packages for VM simulation of Accton AS7512-32X
 
-Package: opx-accton-as7512-vm
+Package: opx-accton-as7512-32x-vm
 Architecture: all
-Depends: opx-platform-config-accton-as7512-32x-vm, opx-core
+Depends: libopx-sai-xpliant1, opx-platform-config-accton-as7512-32x-vm, opx-core
 Description: All packages for VM simulation of Accton AS7512-32X
 
 Package: opx-platform-config-accton-as7512-32x
@@ -44,5 +44,5 @@ Description: All packages for Accton AS7512-32X
 
 Package: opx-accton-as7512-32x
 Architecture: all
-Depends: opx-platform-config-accton-as7512-32x, opx-core
+Depends: xp-tools, xp80PcieEndpoint, libopx-sai-xpliant1, opx-platform-config-accton-as7512-32x, opx-core
 Description: Platform-specific files and packages for Accton AS7512-32X
