@@ -39,7 +39,7 @@ Package: opx-platform-config-accton-as7512-32x
 Architecture: all
 # opx-accton-as7512-32x-modules and opx-nas-platform-as7512-32x ?????? doesn't exist
 # Depends: opx-accton-as7512-32x-modules, i2c-tools, dmidecode, libopx-sdi-device-drivers1, libopx-sdi-sys1, libopx-nas-platform-as7512-32x-1
-Depends: i2c-tools, dmidecode, libopx-sdi-device-drivers1, libopx-sdi-sys1
+Depends: i2c-tools, dmidecode, libopx-sdi-sys-vm1
 Description: All packages for Accton AS7512-32X
 
 Package: opx-accton-as7512-32x
