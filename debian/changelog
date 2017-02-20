@@ -1,3 +1,18 @@
+opx-platform-config (1.0.3) unstable; urgency=medium
+
+  [ Satish Mynam ]
+  * Cleaned up NAS platform files to depricate old repos
+
+ -- Dell EMC <opx-dev@lists.openswitch.net>  Fri, 17 Feb 2017 13:23:27 +0000
+
+opx-platform-config (1.0.2) unstable; urgency=medium
+
+  [ Howard Persh ]
+  * Cleaned up and corrected VM package
+  * Metapackages should be architecture "all"; added BCM-related packages to overall Dell S6000-ON metapckage
+
+ -- Dell EMC <opx-dev@lists.openswitch.net>  Fri, 10 Feb 2017 21:23:27 +0000
+
 opx-platform-config (1.0.1) unstable; urgency=medium
 
   * Initial release.
