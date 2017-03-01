@@ -31,8 +31,6 @@ function add_device {
         echo "Waiting for $2"
     done
     while [ ! -e $3 ] ; do
-        echo "$1"
-        echo $2
         echo "$1" >> $2
         echo "Instantiating device $1"
         for ((i=1;i<=3;i++)) ; do
@@ -51,6 +49,8 @@ for f in /sys/bus/i2c/devices/*; do
         break
     fi
 done
+
+exit 0
 
 if [ $i2c_bus -eq 0 ]; then
     add_device "pca9548 0x76" /sys/bus/i2c/devices/i2c-1/new_device /sys/bus/i2c/devices/i2c-9/new_device
