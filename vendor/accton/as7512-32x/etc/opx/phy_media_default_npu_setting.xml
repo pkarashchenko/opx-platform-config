@@ -61,8 +61,8 @@
         <entry supported-speed="40000" />
     </media-type>
 
-    <media-type id="QSFP 40GBASE CR4 1M" speed="40000" autoneg="on" duplex="None">
-        <entry supported-speed="40000" />
+    <media-type id="QSFP 40GBASE CR4 1M" speed="100000" autoneg="on" duplex="None">
+        <entry supported-speed="100000" />
     </media-type>
 
     <media-type id="QSFP 40GBASE CR4 2M" speed="40000" autoneg="on" duplex="None">
