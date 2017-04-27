@@ -25,6 +25,16 @@ Architecture: all
 Depends: opx-bcm-lkm, libopx-sai-bcm-esw1, libopx-sai-common1, opx-platform-config-dell-s6000, opx-core
 Description: All packages for Dell Networking S6000-ON
 
+Package: opx-platform-config-mlnx-sn2410
+Architecture: any
+Depends: libopx-sdi-sys1
+Description: Platform specific files for Mellanox SN2410
+
+Package: opx-platform-config-mlnx-sn2700
+Architecture: any
+Depends: libopx-sdi-sys1
+Description: Platform specific files for Mellanox SN2700
+
 Package: opx-platform-config-accton-as7512-32x-vm
 Architecture: all
 Depends: libopx-sdi-sys-vm1
