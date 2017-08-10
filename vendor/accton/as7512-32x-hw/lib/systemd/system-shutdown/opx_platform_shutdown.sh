@@ -36,9 +36,9 @@ function platform_poweroff {
 
 case "$1" in
     "poweroff")
-	platform_poweroff
-	;;
+        platform_poweroff
+        ;;
     "reboot")
-	platform_reset
-	;;
+        platform_reset
+        ;;
 esac

@@ -20,9 +20,13 @@
 
     <!--<SWITCH-GLOBALS total-buffer="12480">-->
 
-        <!--<dot1p-to-tc-color-map tag="DOT1P-ALL-TO-TC-0" min="0" max="7">-->
-            <!--<entry dot1p="all"   tc="0" color="GREEN"/>-->
-        <!--</dot1p-to-tc-color-map>-->
+        <!--<dot1p-to-tc-map tag="DOT1P-ALL-TO-TC-0" min="0" max="7">-->
+            <!--<entry dot1p="all"   tc="0"/>-->
+        <!--</dot1p-to-tc-map>-->
+
+        <!--<dot1p-to-color-map tag="DOT1P-ALL-TO-COLOR-GREEN" min="0" max="7">-->
+            <!--<entry dot1p="all"   color="GREEN"/>-->
+        <!--</dot1p-to-color-map>-->
 
         <!--<tc-to-queue-map tag="TC-TO-Q-ONE-TO-ONE">-->
             <!--<entry tc="0" type="UCAST"  queue-number="0"/>-->
@@ -41,8 +45,6 @@
             <!--<entry tc="6" type="MULTICAST"  queue-number="6"/>-->
             <!--<entry tc="7" type="UCAST"  queue-number="7"/>-->
             <!--<entry tc="7" type="MULTICAST"  queue-number="7"/>-->
-            <!--<entry tc="8" type="UCAST"  queue-number="8"/>-->
-            <!--<entry tc="8" type="MULTICAST"  queue-number="8"/>-->
         <!--</tc-to-queue-map>-->
 
         <!--&lt;!&ndash; default TC-to-PG map for LLFC &ndash;&gt;-->
@@ -101,7 +103,8 @@
     <!--<FRONT-PANEL-PORTS>-->
 
         <!--<ingress>-->
-            <!--<dot1p-to-tc-color-map>DOT1P-ALL-TO-TC-0</dot1p-to-tc-color-map>-->
+            <!--<dot1p-to-tc-map>DOT1P-ALL-TO-TC-0</dot1p-to-tc-map>-->
+            <!--<dot1p-to-color-map>DOT1P-ALL-TO-COLOR-GREEN</dot1p-to-color-map>-->
             <!--<tc-to-queue-map>TC-TO-Q-ONE-TO-ONE</tc-to-queue-map>-->
             <!--<tc-to-priority-group-map>TC-ALL-TO-PG-7</tc-to-priority-group-map>-->
         <!--</ingress>-->
@@ -211,6 +214,8 @@
             <!--</nodes>-->
 
         <!--</scheduler-hierarchy-tree>-->
+        <!--&lt;!&ndash; priority group settings &ndash;&gt;-->
+        <!--<priority-group local-id="7"  buffer-profile="default-none"/>-->
 
     <!--</CPU-PORT>-->
 </root>

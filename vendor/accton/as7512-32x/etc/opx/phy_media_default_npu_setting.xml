@@ -12,7 +12,7 @@
  See the Apache Version 2.0 License for specific language governing
  permissions and limitations under the License.
 
- Media specific default configuration for the platform S6000.
+ Media specific default configuration for the platform AS7512-32X.
  Speed is in Mbps unit and any attribute is not applicable then it is either
  ignored or set to None in this config file.
 -->
@@ -93,28 +93,28 @@
         <entry supported-speed="40000" />
     </media-type>
 
-    <media-type id="4x10 10GBASE CR1 HALFM" speed="10000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+    <media-type id="4x10 10GBASE CR1 HALFM" speed="40000" autoneg="off" duplex="None">
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="4x10 10GBASE CR1 1M" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="4x10 10GBASE CR1 3M" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="4x10 10GBASE CR1 5M" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="4x10 10GBASE CR1 7M" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="4x10 10GBASE SR AOC XXM" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
     <media-type id="QSFP 40GBASE SM4" speed="40000" autoneg="off" duplex="None">
@@ -126,7 +126,18 @@
     </media-type>
 
     <media-type id="4x10 10GBASE CR1 2M" speed="40000" autoneg="off" duplex="None">
-        <entry supported-speed="10000" />
+        <entry supported-speed="40000" />
     </media-type>
 
+    <media-type id="QSFP 40GBASE BIDI" speed="40000" autoneg="off" duplex="None">
+        <entry supported-speed="40000" />
+    </media-type>
+
+    <media-type id="QSFP 40GBASE AOC" speed="40000" autoneg="off" duplex="None">
+        <entry supported-speed="40000" />
+    </media-type>
+
+    <media-type id="QSFP 40GBASE PSM4 PIGTAIL" speed="40000" autoneg="off" duplex="None">
+        <entry supported-speed="40000" />
+    </media-type>
 </media-npu-setting-info>
